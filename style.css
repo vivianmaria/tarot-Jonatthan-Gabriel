@@ -105,80 +105,80 @@ body {
     margin-right: 20px;
 }
 .info-buttons {
-    display: flex; /* Alinha os botões em uma linha */
-    justify-content: center; /* Centraliza os botões */
-    margin-top: 20px; /* Espaçamento acima dos botões */
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
 }
 
 .info-btn {
-    display: inline-flex; /* Permite flexibilidade no alinhamento do conteúdo */
-    align-items: center; /* Alinha ícones e texto verticalmente */
-    justify-content: center; /* Centraliza o texto dentro do botão */
-    padding: 12px 20px; /* Espaçamento interno dos botões */
-    border-radius: 25px; /* Bordas arredondadas */
-    color: #fff; /* Cor do texto */
-    font-size: 30px; /* Aumenta o tamanho da fonte (ajuste conforme necessário) */
-    margin: 0 10px; /* Espaçamento entre os botões */
-    text-decoration: none; /* Remove sublinhado do texto */
-    transition: transform 0.3s, box-shadow 0.3s; /* Transições para os efeitos de hover */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra do botão */
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 12px 20px; 
+    border-radius: 25px; 
+    color: #fff; 
+    font-size: 30px; 
+    margin: 0 10px; 
+    text-decoration: none; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .intro-section {
-    color: #ffffff; /* Cor do texto */
-    padding: 23px; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
-    margin: 10px 0; /* Espaçamento externo */
+    color: #ffffff; 
+    padding: 23px; 
+    text-align: center; 
+    margin: 10px 0; 
 }
 
 .intro-section h2 {
-    font-size: 20px; /* Tamanho do título */
-    margin-bottom: 1px; /* Espaço abaixo do título reduzido */
-    font-weight: 600; /* Peso da fonte para destaque */
-    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+    font-size: 20px; 
+    margin-bottom: 1px; 
+    font-weight: 600; 
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); 
 }
 
 .intro-section .info-text {
-    font-size: 1.2rem; /* Tamanho do texto */
-    line-height: 1.2; /* Ajuste para um espaçamento menor e legível */
-    max-width: 800px; /* Largura máxima para evitar que o texto se espalhe demais */
-    margin: 0 auto; /* Centraliza o parágrafo */
-    display: inline-block; /* Garante que o parágrafo não ocupe toda a linha */
+    font-size: 1.2rem; 
+    line-height: 1.2; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    display: inline-block; 
 }
 
 .info-btn {
-    background-color:#4672EF; /* Cor escolhida */
-    color: #ffffff; /* Cor do texto */
-    border: none; /* Remove borda, se houver */
-    padding: 10px 20px; /* Ajuste o espaçamento interno conforme necessário */
-    border-radius: 25px; /* Bordas arredondadas */
-    text-decoration: none; /* Remove o sublinhado */
-    transition: transform 0.3s, box-shadow 0.3s; /* Transições para os efeitos de hover */
-    margin: 0 10px; /* Espaçamento entre os botões */
+    background-color:#4672EF; 
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    text-decoration: none; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    margin: 0 10px; 
 }
 
 .info-btn:hover {
-    transform: translateY(-2px); /* Eleva o botão ao passar o mouse */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Sombra mais intensa ao passar o mouse */
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
 }
 
 
 
 .info-btn.whatsapp,
 .info-btn.instagram {
-    background-color: #4672EF; /* Cor escolhida */
-    color: #ffffff; /* Cor do texto */
-    border: none; /* Remove borda, se houver */
-    padding: 10px 20px; /* Ajuste o espaçamento interno conforme necessário */
-    border-radius: 5px; /* Bordas arredondadas */
-    text-decoration: none; /* Remove o sublinhado */
-    transition: all 0.3s; /* Transição suave para hover */
+    background-color: #4672EF; 
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    transition: all 0.3s; 
 }
 
 .info-btn.whatsapp:hover,
 .info-btn.instagram:hover {
-    transform: translateY(-2px); /* Eleva o botão ao passar o mouse */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Sombra mais intensa ao passar o mouse */
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
 }
 
 .top-container {
@@ -381,9 +381,9 @@ body {
 }
 
 .tarot-consultations h2 {  
-    color: #ffffff; /* Cor branca */
+    color: #ffffff; 
     font-size: 30px;
-    text-align: center; /* Ajuste o tamanho da fonte conforme necessário */
+    text-align: center; 
 }
 
 .tarot-consultations h3,
@@ -401,7 +401,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Espaçamento entre os itens */
+    gap: 20px; 
 }
 
 .item-container {
@@ -432,7 +432,7 @@ body {
     color: #ccc;
 }
 
-/* Botão de Chamada para Ação */
+
 .cta-btn {
     display: inline-block;
     padding: 12px 30px;
@@ -464,8 +464,8 @@ body {
     border-radius: 12px;
     margin: 10px;
     padding: 20px;
-    flex: 1 1 200px; /* Flexível, com tamanho mínimo */
-    max-width: 220px; /* Tamanho máximo */
+    flex: 1 1 200px; 
+    max-width: 220px; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
